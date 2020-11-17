@@ -1,6 +1,7 @@
 <template>
     <div>
-        Random quotes will be soon right here!
+        
+         <h1 class="bg-blue-300">Random quotes will be soon right here!</h1>
     </div>
 </template>
 

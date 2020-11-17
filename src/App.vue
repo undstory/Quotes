@@ -9,9 +9,8 @@
   </div>
 </template>
 
-<style lang="scss">
+<style>
 
-@import "./styles/variables.scss";
-@import "./styles/mixins.scss";
+
 
 </style>
