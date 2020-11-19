@@ -8,7 +8,7 @@
                 <span class="hamburger bg-gray-100"></span>
             </label>
 
-            <nav class="nav bg-red-800">
+            <nav class="nav bg-pink-400">
                 <ul class="nav-list">
                     <li><a href="#"> <router-link to="/">Home</router-link></a></li>
                     <li><a href="#"> <router-link to="/random">Random Quote</router-link></a></li>
