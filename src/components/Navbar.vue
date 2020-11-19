@@ -1,6 +1,7 @@
 <template>
-    <div class="xl:container xl:mx-auto flex justify-between items-center">
-        <h1 class="logo py-12 px-8 ">Quotes</h1>
+    <div class="xl:container mx-auto flex justify-between items-center">
+        <h1 class="logo py-12 px-8 font-semibold text-3xl ssm:hidden tracking-wider"><router-link to="/">Quotes</router-link></h1>
+        <h1 class="logo-min py-12 px-8 font-bold text-5xl ssm:block tracking-wider hidden">Q</h1>
         <div class="navbar py-12 px-8" >
             <input type="checkbox" id="hamburger-toggle">
             <label for="hamburger-toggle" class="hamburger-wrapper">
@@ -9,10 +10,10 @@
 
             <nav class="nav bg-red-800">
                 <ul class="nav-list">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Random Quote</a></li>
-                    <li><a href="#">Generate Quote</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#"> <router-link to="/">Home</router-link></a></li>
+                    <li><a href="#"> <router-link to="/random">Random Quote</router-link></a></li>
+                    <li><a href="#"><router-link to="/new">New Quote</router-link></a></li>
+                    <li><a href="#"><router-link to="/about">About</router-link></a></li>
                 </ul>
             </nav>
         </div>
@@ -69,7 +70,7 @@ export default Vue.extend({
 
 .nav {
     position: absolute;
-    top: 0;
+    top: -2rem;
     right: 0;
     width: 50rem;
     height: 100vh;
@@ -101,7 +102,7 @@ export default Vue.extend({
 }
 
 .nav-list li a:hover {
-    border-bottom: 1px solid #fff;
+    font-weight: bold;
 }
 
 #hamburger-toggle:checked ~ .hamburger-wrapper .hamburger {

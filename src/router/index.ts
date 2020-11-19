@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
 import Home from "../views/Home.vue";
 import Random from "../views/Random.vue";
+import NewQuote from "../views/NewQuote.vue";
 
 Vue.use(VueRouter);
 
@@ -22,8 +23,13 @@ const routes: Array<RouteConfig> = [
   },
   {
     path: "/random",
-    name: "Random ",
+    name: "Random",
     component: Random
+  },
+  {
+    path: "/new",
+    name: "NewQuote",
+    component: NewQuote
   },
 ];
 
