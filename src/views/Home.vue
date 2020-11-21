@@ -1,14 +1,12 @@
 <template>
     <div class="home xl:container mx-auto">
-        <!-- <div class="flex flex-row w-4/5 container border-2 items-center justify-center">
-            <div class="hello w-1/2 border self-end text-right">Hello!</div>
-            <div class="flex w-1/2 flex-col">
-                <span class="quotes w-full">Quotes</span>
-                <span class="all">App</span>
-            </div>
-        </div>   -->
-        <img src="../assets/slice1.png" class="mx-auto py-24 px-16 text-center" />
-        <img src="../assets/slice2.png" class="mx-auto py-24 px-16 text-center" />
+        <img src="../assets/slice1.png" class="mx-auto pt-24 pb-12 px-16 text-center hidden sm:block" />
+        <img src="../assets/slice2.png" class="mx-auto py-12 px-16 text-center sm:hidden"  />
+        <h2 class="text-center font-semibold md:text-4xl text-3xl pt-2 px-4 pb-10">What do you want to do?</h2>
+        <div class="flex mx-auto flex-col sm:flex-row py-4 w-3/4 justify-between items-center">
+            <button type="button" class="border-solid border-4 border-pink-400 py-2 mx-1 my-1 px-4 md:w-2/5 w-3/5 text-xl hover:bg-pink-400 hover:font-semibold">Generate Quote</button>
+            <button type="button" class="border-solid border-4 border-pink-400 py-2 mx-1 my-8 px-4 md:w-2/5 w-3/5 text-xl hover:bg-pink-400 hover:font-semibold">Random Quote</button>
+        </div>
     </div>
 </template>
 
