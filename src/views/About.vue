@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
-    <h1 class="bg-pink-200">This is an about page</h1>
-  </div>
+    <div class="w-full h-screen bg-gray-600 text-gray-100">
+       
+    </div>
 </template>

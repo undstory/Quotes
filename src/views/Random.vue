@@ -1,7 +1,6 @@
 <template>
-    <div>
-        
-         <h1 class="bg-blue-300">Random quotes will be soon right here!</h1>
+   <div class="w-full h-screen bg-gray-600 text-gray-100">
+    
     </div>
 </template>
 

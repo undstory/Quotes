@@ -1,5 +1,5 @@
 <template>
-  <div class="app w-full bg-gray-600 text-gray-100 h-screen">
+  <div class="app w-full bg-gray-600 text-gray-100 h-full">
 
     <navbar />
     
