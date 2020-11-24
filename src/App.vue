@@ -1,5 +1,5 @@
 <template>
-  <div class="app w-full bg-gray-600 text-gray-100 h-full">
+  <div class="app h-screen bg-gray-600 text-gray-100">
 
     <navbar />
     
@@ -21,6 +21,7 @@ export default Vue.extend({
 </script>
 
 <style>
+
 
 
 

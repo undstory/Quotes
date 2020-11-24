@@ -1,8 +1,9 @@
 <template>
-    <div class="xl:container mx-auto flex justify-between items-center">
-        <h1 class="logo py-12 px-8 font-semibold text-3xl ssm:hidden tracking-wider"><router-link to="/">Quotes</router-link></h1>
-        <h1 class="logo-min py-12 px-8 font-bold text-5xl ssm:block tracking-wider hidden">Q</h1>
-        <div class="navbar py-12 px-8" >
+   
+        <div class="xl:container mx-auto flex justify-between items-center">
+            <h1 class="logo py-12 px-8 font-semibold text-3xl ssm:hidden tracking-wider"><router-link to="/">Quotes</router-link></h1>
+            <h1 class="logo-min py-12 px-8 font-bold text-5xl ssm:block tracking-wider hidden">Q</h1>
+            <div class="navbar py-12 px-8" >
             <input type="checkbox" id="hamburger-toggle">
             <label for="hamburger-toggle" class="hamburger-wrapper">
                 <span class="hamburger bg-gray-100"></span>
@@ -17,7 +18,9 @@
                 </ul>
             </nav>
         </div>
-    </div>
+        </div>
+     
+
 </template>
 
 <script lang="ts">
