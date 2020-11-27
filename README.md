@@ -1,4 +1,4 @@
-# quotes
+# new-quotes
 
 ## Project setup
 ```

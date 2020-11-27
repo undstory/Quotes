@@ -7,12 +7,12 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 
 import Navbar from "@/components/Navbar.vue";
 
-import Vue from 'vue'
-export default Vue.extend({
+
+export default ({
   name: "App",
   components: {
     Navbar
