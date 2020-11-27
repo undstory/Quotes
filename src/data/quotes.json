@@ -1,0 +1,54 @@
+{ 
+    "quotes": [
+        {
+            "id": 1,
+            "text": "It may be that those who do most, dream most.",
+            "author": "Stephen Butler Leacock"
+        },
+        {
+            "id": 2,
+            "text": "So many of our dreams at first seem impossible, then they seem improbable, and then, when we summon the will, they soon become inevitable.",
+            "author": "Christopher Reeve"
+        },
+        {
+            "id": 3,
+            "text": "There is only one thing that makes a dream impossible to achieve: the fear of failure.",
+            "author": "Paulo Coelho"
+        },
+        {
+            "id": 4,
+            "text": "Be miserable. Or motivate yourself. Whatever has to be done, it’s always your choice.",
+            "author": "Wayne Dyer"
+        },
+        {
+            "id": 5,
+            "text": "The only thing worse than starting something and failing … is not starting something.",
+            "author": "Seth Godin"
+        },
+        {
+            "id": 6,
+            "text": "Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great.",
+            "author": "Mark Twain"
+        },
+        {
+            "id": 7,
+            "text": "Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.",
+            "author": "Samuel Beckett"
+        },
+        {
+            "id": 8,
+            "text": "Start where you are. Use what you have. Do what you can.",
+            "author": "Arthur Ashe"
+        },
+        {
+            "id": 9,
+            "text": "You are never too old to set another goal or to dream a new dream.",
+            "author": "C.S. Lewis"
+        },
+        {
+            "id": 10,
+            "text": "You see things; and you say, ‘Why?' But I dream things that never were; and I say, ‘Why not?'",
+            "author": "George Bernard Shaw"
+        }
+    ]
+}
