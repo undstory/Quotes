@@ -1,12 +1,9 @@
 export default {
 
-    quotes(state) {
-        return state.quotes,
-    },
-    
-
-    giveMeQuote(state) {
-        return state.quotes.filter(quote => quote.id === 1);
+    findRandom: state => {
+        const random = Math.floor(Math.random()*state.quotes.length);
+        return state.quotes[random];
     }
-      
+
+    
 }

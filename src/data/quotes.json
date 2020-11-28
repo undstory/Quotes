@@ -1,5 +1,4 @@
-{ 
-    "quotes": [
+ [
         {
             "id": 1,
             "text": "It may be that those who do most, dream most.",
@@ -51,4 +50,3 @@
             "author": "George Bernard Shaw"
         }
     ]
-}
