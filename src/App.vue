@@ -2,8 +2,9 @@
   <div class="app h-screen bg-gray-600 text-gray-100">
 
     <navbar />
-    
-    <router-view />
+
+      <router-view />
+  
   </div>
 </template>
 

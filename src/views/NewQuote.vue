@@ -32,9 +32,9 @@ export default ({
              return this.$store.getters.quotes;
         },
 
-     computeId() {
-         return this.$store.getters.computeId;
-     }
+        computeId() {
+            return this.$store.getters.computeId;
+        }
 
     },
     mounted() {
@@ -48,6 +48,7 @@ export default ({
             this.quote = {};
             alert("A new quote has been added to the database");
             console.log(this.quotes);
+
         },
 
         focusInput() {
