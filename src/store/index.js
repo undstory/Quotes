@@ -1,7 +1,9 @@
 import Vue from "vue";
 import Vuex from "vuex";
 
-import getters from "./getters"
+import getters from "./getters";
+import mutations from "./mutations";
+
 Vue.use(Vuex);
 
 const testData = [];
@@ -14,11 +16,12 @@ for(let i=0; i <=10; i++) {
 }
 export default new Vuex.Store({
   state: {
-    quotes: require("../data/quotes")
+    quotes: require("../data/quotes"),
+    random: 0
   },
   getters,
 
-  mutations: {},
+  mutations,
   actions: {},
   modules: {}
 });
