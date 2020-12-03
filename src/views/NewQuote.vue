@@ -1,7 +1,7 @@
 <template>
     <div class="w-full h-full bg-gray-600 text-gray-100">
         <div class="flex flex-col justify-center items-center">
-            <div>Quote id: {{ computeId + 1}}</div>
+            <div class="display">Quote id: {{ computeId + 1}}</div>
             <textarea v-model="quote.text" ref="textarea" class="border-solid border-4 border-blue-400 py-2 mx-1 my-8 px-4 md:w-2/5 w-3/5 text-xl text-gray-800 placeholder-gray-500" rows="10" placeholder="Quote..." autofocus="autofocus"></textarea>
             <input v-model="quote.author" class="border-solid border-4 border-blue-400 py-2 mx-1 my-8 px-4 md:w-2/5 w-3/5 text-xl text-gray-800 placeholder-gray-500" placeholder="Author..." />
             <button @click="saveNew" class="border-solid border-4 border-pink-400 py-2 mx-1 my-8 px-4 md:w-1/5 w-3/5 text-xl text-center hover:bg-pink-400 hover:font-semibold">Add quote</button>
@@ -59,3 +59,11 @@ export default ({
     
 })
 </script>
+
+<style>
+
+.display {
+    display: none;
+}
+
+</style>

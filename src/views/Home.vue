@@ -7,6 +7,7 @@
         <div class="flex mx-auto flex-col sm:flex-row py-4 w-1/2 justify-between items-center">
             <router-link to="/new" class="border-solid border-4 border-pink-400 py-2 mx-1 my-1 px-4 md:w-2/5 w-3/5 text-xl text-center hover:bg-pink-400 hover:font-semibold"><button type="button" >New Quote</button></router-link>
             <router-link to="/random" class="border-solid border-4 border-pink-400 py-2 mx-1 my-8 px-4 md:w-2/5 w-3/5 text-xl text-center hover:bg-pink-400 hover:font-semibold"><button type="button">Random Quote</button></router-link>
+             <router-link to="/search" class="border-solid border-4 border-pink-400 py-2 mx-1 my-8 px-4 md:w-2/5 w-3/5 text-xl text-center hover:bg-pink-400 hover:font-semibold"><button type="button">Search Quote</button></router-link>
         </div>
     </div>
 </template>

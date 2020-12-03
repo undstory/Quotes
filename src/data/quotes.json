@@ -2,51 +2,208 @@
         {
             "id": 1,
             "text": "It may be that those who do most, dream most.",
-            "author": "Stephen Butler Leacock"
+            "author": "Stephen Butler Leacock",
+            "category": "Dreams" 
         },
         {
             "id": 2,
-            "text": "So many of our dreams at first seem impossible, then they seem improbable, and then, when we summon the will, they soon become inevitable.",
-            "author": "Christopher Reeve"
+            "text": "I like to listen. I have learned a great deal from listening carefully. Most people never listen.",
+            "author": "Ernest Hemingway",
+            "category": "Friendship" 
         },
         {
             "id": 3,
             "text": "There is only one thing that makes a dream impossible to achieve: the fear of failure.",
-            "author": "Paulo Coelho"
+            "author": "Paulo Coelho",
+            "category": "Dreams" 
         },
         {
             "id": 4,
-            "text": "Be miserable. Or motivate yourself. Whatever has to be done, it’s always your choice.",
-            "author": "Wayne Dyer"
+            "text": "If you live to be 100, I hope I live to be 100 minus 1 day, so I never have to live without you.",
+            "author": "Winnie the Pooh",
+            "category": "Friendship" 
         },
         {
             "id": 5,
-            "text": "The only thing worse than starting something and failing … is not starting something.",
-            "author": "Seth Godin"
+            "text": "A single rose can be my garden… a single friend, my world.",
+            "author": "Leo Buscaglia",
+            "category": "Friendship" 
         },
         {
             "id": 6,
             "text": "Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great.",
-            "author": "Mark Twain"
+            "author": "Mark Twain",
+            "category": "Dreams" 
         },
         {
             "id": 7,
             "text": "Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.",
-            "author": "Samuel Beckett"
+            "author": "Samuel Beckett",
+            "category": "Dreams" 
         },
         {
             "id": 8,
             "text": "Start where you are. Use what you have. Do what you can.",
-            "author": "Arthur Ashe"
+            "author": "Arthur Ashe",
+            "category": "Dreams" 
         },
         {
             "id": 9,
             "text": "You are never too old to set another goal or to dream a new dream.",
-            "author": "C.S. Lewis"
+            "author": "C.S. Lewis",
+            "category": "Dreams" 
         },
         {
             "id": 10,
-            "text": "You see things; and you say, ‘Why?' But I dream things that never were; and I say, ‘Why not?'",
-            "author": "George Bernard Shaw"
+            "text": "A friend is someone who understands your past, believes in your future, and accepts you just the way you are.",
+            "author": "Unknown",
+            "category": "Friendship" 
+        },
+
+        {
+            "id": 11,
+            "text": "Love takes off masks that we fear we cannot live without and know we cannot live within.",
+            "author": "James Baldwin",
+            "category": "Love"
+        },
+
+        {
+            "id": 12,
+            "text": "The most important thing in life is to learn how to give out love, and to let it come in.",
+            "author": "Morrie Schwartz",
+            "category": "Love"
+        },
+
+        {
+            "id": 13,
+            "text": "I love you not because of who you are, but because of who I am when I am with you.",
+            "author": "Roy Croft",
+            "category": "Love"
+        },
+
+        {
+            "id": 14,
+            "text": "Some cause happiness wherever they go; others whenever they go.",
+            "author": "Oscar Wilde",
+            "category": "Happiness"
+        },
+
+        {
+            "id": 15,
+            "text": "There is only one happiness in this life, to love and be loved.",
+            "author": "George Sand",
+            "category": "Love"
+        },
+
+        {
+            "id": 16,
+            "text": "You know it's love when all you want is that person to be happy, even if you're not part of their happiness",
+            "author": "Julia Roberts",
+            "category": "Love"
+        },
+
+        {
+            "id": 17, 
+            "text": "At the touch of love everyone becomes a poet.",
+            "author": "Plato",
+            "category": "Happiness"
+        },
+
+        {
+            "id": 18,
+            "text": "There are more things to alarm us than to harm us, and we suffer more often in apprehension than reality.",
+            "author": "Seneca",
+            "category": "Happiness"
+        },
+
+        {
+            "id": 19,
+            "text": "Don’t underestimate the value of Doing Nothing, of just going along, listening to all the things you can’t hear, and not bothering.",
+            "author": "Winnie the Pooh",
+            "category": "Happiness"
+        },
+
+        {
+            "id": 20,
+            "text": "If you want happiness for an hour — take a nap. If you want happiness for a day — go fishing. If you want happiness for a year — inherit a fortune. If you want happiness for a lifetime — help someone else.",
+            "author": "Chinese Proverb",
+            "category": "Happiness"
+        },
+
+        {
+            "id": 21,
+            "text": "Fear is the main source of superstition, and one of the main sources of cruelty. To conquer fear is the beginning of wisdom.",
+            "author": "Bertrand Russell",
+            "category": "Fear"
+        },
+
+        {
+            "id": 22,
+            "text": "Too many people are thinking of security instead of opportunity. They seem to be more afraid of life than death.",
+            "author": "James F. Byrnes",
+            "category": "Fear"
+        },
+
+        {
+            "id": 23,
+            "text": "Of all the liars in the world, sometimes the worst are our own fears.",
+            "author": "Rudyard Kipling",
+            "category": "Fear"
+        },
+
+        {
+            "id": 24,
+            "text": "Fear: False Evidence Appearing Real.",
+            "author": "Unknown",
+            "category": "Fear"
+        },
+
+        {
+            "id": 25,
+            "text": "I am not afraid of tomorrow, for I have seen yesterday and I love today.",
+            "author": "William Allen White",
+            "category": "Fear"
+        },
+
+        {
+            "id": 26,
+            "text": "Laughter is poison to fear.",
+            "author": "George R.R. Martin",
+            "category": "Fear"
+        },
+
+        {
+            "id": 27,
+            "text": "A man cannot be comfortable without his own approval.",
+            "author": "Mark Twain",
+            "category": "Self love"
+        },
+
+        {
+            "id": 28,
+            "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us",
+            "author": "Ralph Waldo Emerson",
+            "category": "Self love"
+        },
+
+        {
+            "id": 29,
+            "text": "Self-care is never a selfish act—it is simply good stewardship of the only gift I have, the gift I was put on earth to offer to others.",
+            "author": "Parker Palmer",
+            "category": "Self love"
+        },
+
+        {
+            "id": 30,
+            "text": "Don't waste your energy trying to change opinions … Do your thing, and don't care if they like it.",
+            "author": "Tina Fey",
+            "category": "Self love"
+        },
+
+        {
+            "id": 31,
+            "text": "I don't want everyone to like me; I should think less of myself if some people did.",
+            "author": "Henry James",
+            "category": "Self love"
         }
     ]

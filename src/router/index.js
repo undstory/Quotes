@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Random from "../views/Random.vue";
 import NewQuote from "../views/NewQuote.vue";
+import Search from "../views/Search.vue";
 
 Vue.use(VueRouter);
 
@@ -32,6 +33,11 @@ const routes = [
     name: "NewQuote",
     component: NewQuote
   },
+  {
+    path: "/search",
+    name: "Search",
+    component: Search
+  }
 ];
 
 const router = new VueRouter({
