@@ -19,9 +19,10 @@ export default {
         return state.quotes.map(quote => quote.category).sort();
     },
 
-    // filteredByAuthor(state, getters) {
-    //     return this.filteredQuotesAuthor.value.map()
-    // } 
+  
+
+     
+  
 
     
 }
