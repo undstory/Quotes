@@ -1,5 +1,5 @@
-<template>
-    <div class="w-full h-screen bg-gray-600 text-3xl text-white-100 text-center">
+<template >
+    <div class="w-full h-full bg-gray-600 text-3xl text-white-100 text-center pb-2">
         <h2>Search for quote by</h2>
         <div class="container flex mx-auto flex-col sm:flex-row py-4 w-1/2 justify-between items-center">
             
@@ -18,8 +18,8 @@
     <div>
         <ul>
             <li v-for="(quote, index) in newQuotesByCategory" v-bind:key="index" class="my-8">
-                <span class="result my-4">"{{ quote.text }}"</span><br />
-                <span class="result my-4">{{ quote.author }}</span><br />
+                <span class="result my-4 w-3/4">"{{ quote.text }}"</span><br />
+                <span class="result my-4 author">{{ quote.author }}</span><br />
             </li>
         </ul>
     </div>
@@ -27,8 +27,8 @@
     <div>
         <ul>
             <li v-for="(quote, index) in newQuotesByAuthor" v-bind:key="index" class="my-8">
-                <span class="result my-4">"{{ quote.text }}"</span><br />
-                <span class="result my-4">{{ quote.author }}</span><br />
+                <span class="result my-4 w-3/4">"{{ quote.text }}"</span><br />
+                <span class="result my-4 author">{{ quote.author }}</span><br />
             </li>
         </ul>
     </div>

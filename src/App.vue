@@ -1,5 +1,5 @@
 <template>
-  <div class="app h-screen bg-gray-600 text-gray-100">
+  <div class="app bg-gray-600 text-gray-100">
 
     <navbar />
 
@@ -23,6 +23,9 @@ export default ({
 
 <style>
 
+.app {
+  height: 100vh
+}
 
 
 
