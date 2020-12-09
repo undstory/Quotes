@@ -13,8 +13,8 @@
                 <ul class="nav-list">
                     <li><a href="#"> <router-link to="/">Home</router-link></a></li>
                     <li><a href="#"> <router-link to="/random">Random Quote</router-link></a></li>
-                    <li><a href="#"><router-link to="/new">New Quote</router-link></a></li>
                     <li><a href="#"><router-link to="/search">Search Quote</router-link></a></li>
+                    <li><a href="#"><router-link to="/new">New Quote*</router-link></a></li>
                     <li><a href="#"><router-link to="/about">About</router-link></a></li>
                 </ul>
             </nav>
