@@ -3,17 +3,17 @@
         <div class="flex flex-col justify-center items-center">
             <div class="display">Quote id: {{ computeId + 1}}</div>
    
-            <textarea v-model="quote.text" ref="textarea" class="border-solid border-4 border-blue-400 py-2 mx-1 my-8 px-4 md:w-2/5 w-3/5 text-xl text-gray-800 placeholder-gray-500" rows="10" placeholder="Quote..." autofocus="autofocus"></textarea>
+            <textarea v-model="quote.text" ref="textarea" class="border-solid border-4 border-blue-400 py-2 mx-1 my-8 px-4 md:w-2/5 w-4/5 sm:text-xl text-lg text-gray-800 placeholder-gray-500" rows="10" placeholder="Quote..." autofocus="autofocus"></textarea>
             <p v-if="$v.quote.text.$dirty && !$v.quote.text.required">This field is required</p>
             <p v-if="$v.quote.text.$dirty && !$v.quote.text.maxLength">The message requires less than 500 characters</p>
-            <select @change="category($event.target.value)" class="border-solid border-4 border-blue-400 py-2 mx-1 my-8 px-4 md:w-2/5 w-3/5 text-xl text-gray-800" >
+            <select @change="category($event.target.value)" class="border-solid border-4 border-blue-400 py-2 mx-1 my-8 px-4 md:w-2/5 w-3/5 sm:text-xl text-lg text-gray-800" >
                 <option class="text-gray-300" selected>Category...</option>
                 <option v-for="c in filteredQuotesCategory" :value="c" v-bind:key="c" required>{{ c }}</option>
             </select>
             <p v-if="$v.quote.category.$dirty && !$v.quote.category.required">This field is required</p>
-            <input v-model="quote.author" class="border-solid border-4 border-blue-400 py-2 mx-1 my-8 px-4 md:w-2/5 w-3/5 text-xl text-gray-800 placeholder-gray-500" placeholder="Author..." />
+            <input v-model="quote.author" class="border-solid border-4 border-blue-400 py-2 mx-1 my-8 px-4 md:w-2/5 w-3/5 sm:text-xl text-lg text-gray-800 placeholder-gray-500" placeholder="Author..." />
             <p v-if="$v.quote.author.$dirty && !$v.quote.author.required">This field is required</p>
-            <button @click="saveNew" class="border-solid border-4 border-pink-400 py-2 mx-1 my-8 px-4 md:w-1/5 w-3/5 text-xl text-center hover:bg-pink-400 hover:font-semibold">Add quote</button>
+            <button @click="saveNew" class="border-solid border-4 border-pink-400 py-2 mx-1 my-8 px-4 md:w-1/5 w-4/5 sm:text-xl text-center hover:bg-pink-400 hover:font-semibold">Add quote</button>
         </div>
        <!-- <button @click="iCo">I co?</button> -->
     </div>

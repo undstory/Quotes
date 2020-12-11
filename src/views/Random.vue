@@ -1,8 +1,8 @@
 <template>
     <div class="w-full h-screen bg-gray-600 text-3xl text-white-100 text-center">
-        <div class="px-2 pt-10 pb-5 w-3/4 text-center m-auto">"{{ findRandom.text }}"</div>
-        <div class="px-2 py-3 text-2xl"><span class="author">{{ findRandom.author }}</span></div>
-        <button type="button" @click="fresh" class="border-solid border-4 border-pink-400 py-2 mx-1 my-8 px-4 md:w-1/5 w-1/5 text-xl text-center hover:bg-pink-400 hover:font-semibold">Give Me Another One</button>
+        <div class="px-2 pt-10 pb-5 w-3/4 mt-8 text-center  md:text-3xl sm:text-2xl text-xl m-auto">"{{ findRandom.text }}"</div>
+        <div class="px-2 py-3 md:text-2xl text-xl"><span class="author">{{ findRandom.author }}</span></div>
+        <button type="button" @click="fresh" class="border-solid border-4 border-pink-400 py-2 mx-1 my-8 px-4 md:w-1/5 sm:w-1/3 w-1/2 text-xl text-center hover:bg-pink-400 hover:font-semibold">Give Me Another One</button>
     </div>
 </template>
 
