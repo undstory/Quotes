@@ -8,7 +8,7 @@ I try not to waste time and continue to explore my favorite framework --> Vue.js
 - HTML 
 - CSS
 - Vue.js (Vuex, Vue-CLI, Vue-Router, Vuelidation)
-- SCSS
+- Tailwind CSS
 - Flexbox
 - RWD 
 
