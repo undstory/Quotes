@@ -1,24 +1,15 @@
-# new-quotes
 
-## Project setup
-```
-npm install
-```
+# Quotes - application for searching and creating quotes!
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+I try not to waste time and continue to explore my favorite framework --> Vue.js. I designed and coded this project myself using this time new technologies for me like Vuex and Tailwind CSS. This project may not be too extensive, but it allowed me to practice my Vue knowledge a bit and I am proud of it (i.e. myself;)).
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Created with: 
 
-### Lints and fixes files
-```
-npm run lint
-```
+- HTML 
+- CSS
+- Vue.js (Vuex, Vue-CLI, Vue-Router, Vuelidation)
+- SCSS
+- Flexbox
+- RWD 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Live: https://quotes.undstory.vercel.app/
