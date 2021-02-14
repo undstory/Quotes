@@ -81,7 +81,7 @@ export default ({
     height: 100vh;
     clip-path: circle(0 at 100% 0);
     transition: all .5s;
-    z-index: 0;
+    z-index: 5555;
 }
 
 .nav-list {
